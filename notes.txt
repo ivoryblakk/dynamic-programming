@@ -1,0 +1,26 @@
+Dynamic programming
+
+What is Dynamic programming 
+using less computer memory by using stored number in a recursion solution
+
+https://www.youtube.com/watch?v=vYquumk4nWw
+https://blog.usejournal.com/top-50-dynamic-programming-practice-problems-4208fed71aa3
+https://christopherstoll.org/2012/01/javascript-dynamic-programming-example.html
+
+
+
+https://www.tutorialspoint.com/dynamic-programming-in-javascript
+Dynamic programming breaks down the problem into smaller and yet smaller possible sub-problems. These sub-problems are not solved independently. Rather, results of these smaller sub-problems are remembered and used for similar or overlapping sub-problems.
+
+Dynamic programming is used where we have problems, which can be divided into similar sub-problems so that their results can be re-used. Mostly, these algorithms are used for optimization. Before solving the in-hand sub-problem, the dynamic algorithm will try to examine the results of the previously solved sub-problems. The solutions of sub-problems are combined in order to achieve the best solution.
+
+For a problem to be using dynamic programming,
+
+The problem should be able to be divided into smaller overlapping sub-problem.
+An optimum solution can be achieved by using an optimum solution of smaller sub-problems.
+Dynamic algorithms use memorization.
+Dynamic programming problems can be solved using 2 approaches −
+
+Bottom Up Dynamic programming: In this approach, we first analyze the problem and see the order in which the sub-problems are solved.We start by solving the trivial sub problem and build up towards the given problem.
+
+Top Down Dynamic Programming: In this approach, we start solving the given problem by breaking it down. If you see that a given sub problem has been solved already, then just return the stored solution.
